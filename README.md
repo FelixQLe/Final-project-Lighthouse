@@ -10,7 +10,8 @@ Capstone DATA SCIENCE Project with Enzyme Stability Prediction
  
 ### Mutations
 
-There are three type of mutations, replace, delete and insertion
+There are three type of mutations, replace, delete and insertion. There is no doubt that muations affect melting point(i.e. target tm, melting temperature)
+- reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8150157/
 
  ![Screen Shot 2022-10-13 at 1 06 09 AM](https://user-images.githubusercontent.com/93171100/196219026-b6c2fd56-8fa0-41cf-b23e-637bc65d8b9c.png)
  
@@ -57,4 +58,5 @@ I was able to improve 14% higher.
 - Use extra protein properties ddG and b_factor score from extra source
 - Use one significant mutation pair between two string rather than all mutations and calculate it’s matrix score using Blossom80 python package
 - Tuning hyperparameters
+- Ensemble modeling(perhaps)
 
