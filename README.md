@@ -37,8 +37,24 @@ I have spent couple of days to study Enzymes properties, Amino Acid properties a
 ![Screen Shot 2022-10-12 at 11 20 09 AM](https://user-images.githubusercontent.com/93171100/196233837-5685a5ba-c44a-49f0-a5e7-e65eeec279a9.png)
 
 ## Base Model
+
 First model, I treated the problem as text problem, and used tf-df-vectorizor to decode every letter in every protein sequence
+
 * Result
+
     As I expected the result is not good.
+    
     ![Screen Shot 2022-10-12 at 11 50 14 AM](https://user-images.githubusercontent.com/93171100/196234295-213eb52c-f20a-4d91-bd04-02806fa8c38b.png)
+
+## First Improvement Model
+
+For first improvement model, I started to use protein propeties mentioned above, this first improvement model proved the usefulness of these properties.
+I was able to improve 14% higher.
+
+![Screen Shot 2022-10-12 at 11 50 14 AM](https://user-images.githubusercontent.com/93171100/196240846-804a326b-88ae-4c99-9d7b-a56f2dad5f8e.png)
+
+## Final Improvement Model(will update the results, please stay tuned)
+- Use extra protein properties ddG and b_factor score from extra source
+- Use one significant mutation pair between two string rather than all mutations and calculate it’s matrix score using Blossom80 python package
+- Tuning hyperparameters
 
