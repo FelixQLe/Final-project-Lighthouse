@@ -55,10 +55,11 @@ I was able to improve 14% higher. However, my model is overfited
 ![Screen Shot 2022-10-12 at 11 50 14 AM](https://user-images.githubusercontent.com/93171100/196240846-804a326b-88ae-4c99-9d7b-a56f2dad5f8e.png)
 
 ## Final Improvement Model(will update the results, please stay tuned)
-In the first improvement model, I was able to improve 14% higher. However, my model is overfited. The reason is our dataset is smalll and we have a lots features, means high variance and will represent the data set accurately but lead to overfitting.
+In the first improvement model, I was able to improve 14% higher. However, my model is overfited. The reason is our dataset is smalll and we have a lots features, means high variance and will represent the data set accurately but has poor fit with new datasets, lead to overfitting.
 For that reason I will improve the model by the following steps:
 - Use extra protein properties ddG and b_factor score from extra source
-- Use one significant mutation pair between two string rather than all mutations and calculate it’s matrix score using Blossom80 python package
+- Remove Features, Use one significant mutation pair between two string rather than all mutations and calculate it’s matrix score using Blossom80 python package
 - Tuning hyperparameters
+- Cross-validation
 - Ensemble modeling(perhaps)
 
