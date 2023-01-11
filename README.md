@@ -45,7 +45,7 @@ First model, I treated the problem as text problem, and used tf-df-vectorizor to
 
     As I expected the result is not good.
     
-    ![Screen Shot 2022-10-12 at 11 50 14 AM](https://user-images.githubusercontent.com/93171100/196234295-213eb52c-f20a-4d91-bd04-02806fa8c38b.png)
+    !![Screen Shot 2022-10-13 at 1 27 09 AM](https://user-images.githubusercontent.com/93171100/211712195-6cd24dba-db49-4889-be0b-98dbc96a498b.png)
 
 ## First Improvement Model
 
